@@ -1,0 +1,41 @@
+DOC_ID: VAN-0009
+EVENT_ID: E3
+TITLE: Rice prices ease as quota shipments begin
+SOURCE_NAME: Raven Wire
+SOURCE_TYPE: news
+RELIABILITY: 2
+PUB_DATE: 2027-07-08
+PUB_TIME: 08:00
+COUNTRY: Vanir
+SECTOR: Rice
+LANGUAGE: en
+---
+Rice prices ease as quota shipments begin
+
+[P1] Rice prices in the region have started to ease after Vanir began shipping under its new quota.
+
+[P2] The first quota cargoes left Vanir Rice Port in June, and buyers in Tolan and Midgard have received them.
+
+[P3] Prices remain above last year's level, but traders said the direction had changed.
+
+[P4] Valhalla's extra exports are expected to fade as Vanir's quota volumes rise.
+
+[P5] The quota has allowed Vanir to resume some white rice shipments, though volumes remain far below normal.
+
+[P6] Buyers in Tolan said the first cargoes had arrived and that prices had stopped rising.
+
+[P7] Valhalla's exporters said they expected their extra sales to fall as Vanir's quota volumes increase.
+
+[P8] The ministry has not said how the quota will be allocated among buyers.
+
+[P9] A trader in Midgard said the market was still tight and that prices remained above last year's level.
+
+[P10] The first quota cargoes left Vanir Rice Port in June, and more are expected in July.
+
+[P11] The government said the quota would be reviewed after the first period.
+
+[P12] Retailers said they had not yet cut prices but were watching the market.
+
+[P13] Analysts said the direction had changed but that the market was still far from normal.
+
+[P14] The ministry has not said how quickly the quota will increase.

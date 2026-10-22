@@ -1,0 +1,41 @@
+DOC_ID: VAN-0039
+EVENT_ID: NONE
+TITLE: Vanir rice prices fall after a good harvest
+SOURCE_NAME: Raven Wire
+SOURCE_TYPE: news
+RELIABILITY: 2
+PUB_DATE: 2025-09-18
+PUB_TIME: 11:00
+COUNTRY: Vanir
+SECTOR: Rice
+LANGUAGE: en
+---
+Vanir rice prices fall after a good harvest
+
+[P1] Rice prices in Vanir have fallen after a larger harvest than the previous year.
+
+[P2] Farmers said the weather had been kind and that yields were better than expected.
+
+[P3] Traders said exports were moving normally and that buyers in Tolan and Midgard had plenty of supply.
+
+[P4] The ministry said it saw no reason to change its export rules.
+
+[P5] The harvest was the largest in several years, and farmers said the quality was good.
+
+[P6] Exporters said demand from Tolan and Midgard was steady, and that there was no shortage of ships.
+
+[P7] The ministry said the rice market was well supplied and that prices were likely to stay low.
+
+[P8] Traders in Vanir said they were holding normal stocks and saw no reason to build more.
+
+[P9] A buyer in Tolan said the lower prices had helped retailers keep shelf prices unchanged.
+
+[P10] The good weather also helped other crops, though the ministry did not give details.
+
+[P11] Analysts said the market was calm and that the next harvest would be watched closely.
+
+[P12] The rice port was busy, and agents said loading was proceeding on schedule.
+
+[P13] Farmers said they hoped the government would keep the export rules unchanged.
+
+[P14] Prices are expected to stay low through the autumn.

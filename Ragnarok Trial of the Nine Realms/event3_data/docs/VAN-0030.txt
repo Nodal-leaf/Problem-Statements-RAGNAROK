@@ -1,0 +1,43 @@
+DOC_ID: VAN-0030
+EVENT_ID: E3
+TITLE: Trade note: Valhalla to Midgard, Rice
+SOURCE_NAME: Cargo Weekly
+SOURCE_TYPE: trade_note
+RELIABILITY: 2
+PUB_DATE: 2027-04-19
+PUB_TIME: 10:00
+COUNTRY: Midgard
+SECTOR: Rice
+LANGUAGE: en
+---
+Trade note: Valhalla to Midgard, Rice
+
+[P1] Route: Valhalla to Midgard, Rice.
+
+[P2] In October 2026, the value was USD 51.9M and the volume was 94,900 tonnes.
+
+[P3] In November 2026, the value was USD 51.1M and the volume was 94,000 tonnes.
+
+[P4] In December 2026, the value was USD 53.6M and the volume was 97,300 tonnes.
+
+[P5] In January 2027, the value was USD 61.3M and the volume was 100,800 tonnes.
+
+[P6] In February 2027, the value was USD 83.7M and the volume was 136,600 tonnes.
+
+[P7] In March 2027, the value was USD 83.8M and the volume was 137,000 tonnes.
+
+[P8] Same months last year.
+
+[P9] In October 2025, the value was USD 51.9M and the volume was 94,900 tonnes.
+
+[P10] In November 2025, the value was USD 51.1M and the volume was 94,000 tonnes.
+
+[P11] In December 2025, the value was USD 53.6M and the volume was 97,300 tonnes.
+
+[P12] In January 2026, the value was USD 54.7M and the volume was 100,800 tonnes.
+
+[P13] In February 2026, the value was USD 56.5M and the volume was 103,300 tonnes.
+
+[P14] In March 2026, the value was USD 56.7M and the volume was 103,700 tonnes.
+
+[P15] The gain is limited by Valhalla's small export base and by its own concern about domestic prices.

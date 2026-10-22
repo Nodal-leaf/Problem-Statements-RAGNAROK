@@ -1,0 +1,43 @@
+DOC_ID: VAN-0046
+EVENT_ID: E3
+TITLE: Trade note: Orvan to Vanir, Fertiliser
+SOURCE_NAME: Harbour Review
+SOURCE_TYPE: trade_note
+RELIABILITY: 2
+PUB_DATE: 2027-04-19
+PUB_TIME: 10:20
+COUNTRY: Vanir
+SECTOR: Fertiliser
+LANGUAGE: en
+---
+Trade note: Orvan to Vanir, Fertiliser
+
+[P1] Route: Orvan to Vanir, Fertiliser.
+
+[P2] In October 2026, the value was USD 28.7M and the volume was 64,500 tonnes.
+
+[P3] In November 2026, the value was USD 29.8M and the volume was 68,200 tonnes.
+
+[P4] In December 2026, the value was USD 29.3M and the volume was 64,500 tonnes.
+
+[P5] In January 2027, the value was USD 26.6M and the volume was 60,700 tonnes.
+
+[P6] In February 2027, the value was USD 28.6M and the volume was 63,000 tonnes.
+
+[P7] In March 2027, the value was USD 28.4M and the volume was 61,400 tonnes.
+
+[P8] Same months last year.
+
+[P9] In October 2025, the value was USD 28.7M and the volume was 64,500 tonnes.
+
+[P10] In November 2025, the value was USD 29.8M and the volume was 68,200 tonnes.
+
+[P11] In December 2025, the value was USD 29.3M and the volume was 64,500 tonnes.
+
+[P12] In January 2026, the value was USD 26.6M and the volume was 60,700 tonnes.
+
+[P13] In February 2026, the value was USD 28.6M and the volume was 63,000 tonnes.
+
+[P14] In March 2026, the value was USD 28.4M and the volume was 61,400 tonnes.
+
+[P15] Vanir's fertiliser imports from Orvan were unchanged through the ban and the first quarter.

@@ -1,0 +1,35 @@
+DOC_ID: VAN-0005
+EVENT_ID: NONE
+TITLE: Valhalla will ban rice exports too, insiders say
+SOURCE_NAME: Trade Whisper
+SOURCE_TYPE: blog
+RELIABILITY: 4
+PUB_DATE: 2026-12-14
+PUB_TIME: 07:50
+COUNTRY: Valhalla
+SECTOR: Rice
+LANGUAGE: en
+---
+Valhalla will ban rice exports too, insiders say
+
+[P1] A source close to the Valhalla government says a rice export ban will be announced within days.
+
+[P2] The source says the decision has already been taken and that the trade ministry is drafting the notice.
+
+[P3] The same source says buyers in Tolan and Midgard have been told to expect a formal announcement.
+
+[P4] No notice has appeared in the Valhalla gazette.
+
+[P5] The ministry has not commented.
+
+[P6] The source has been right about Valhalla policy before, though not always on timing.
+
+[P7] A buyer in Tolan said the rumour had been circulating for several days.
+
+[P8] The blog has asked the ministry for a response and will publish any reply.
+
+[P9] Traders said they were waiting for an official notice before changing contracts.
+
+[P10] The ministry's silence has encouraged speculation.
+
+[P11] Readers should watch for the official notice before changing any contracts.

@@ -1,0 +1,15 @@
+DOC_ID: WLD-0010
+EVENT_ID: NONE
+TITLE: Street food night this weekend
+SOURCE_NAME: Saga Chat
+SOURCE_TYPE: social_post
+RELIABILITY: 4
+PUB_DATE: 2025-07-30
+PUB_TIME: 19:05
+COUNTRY: Asgard
+SECTOR: general
+LANGUAGE: en
+---
+Street food night this weekend
+
+[P1] Street food night returns to the old town this weekend. Expect long queues, loud music and far too much fried food. Bring cash and a friend who does not mind standing.

@@ -1,0 +1,37 @@
+DOC_ID: VAN-0007
+EVENT_ID: E3
+TITLE: Midgard rice buyers turn to Valhalla as Vanir ban bites
+SOURCE_NAME: Midgard Times
+SOURCE_TYPE: news
+RELIABILITY: 2
+PUB_DATE: 2026-12-09
+PUB_TIME: 07:45
+COUNTRY: Midgard
+SECTOR: Rice
+LANGUAGE: en
+---
+Midgard rice buyers turn to Valhalla as Vanir ban bites
+
+[P1] Midgard importers are asking Valhalla for extra rice after Vanir banned ordinary white rice exports last week.
+
+[P2] Midgard buys most of its rice on the open market, and the ban removed the largest part of its Vanir supply.
+
+[P3] Valhalla has said it will keep exporting but can raise shipments only by about 30 to 35 percent on a small base.
+
+[P4] Retail prices in Midgard have started to rise, and the central bank is watching the effect on household costs.
+
+[P5] Ada Lindqvist, a central bank official, said the price effect was a supply shock, not a demand boom.
+
+[P6] Importers said they were offering to pay a premium for quick delivery, while Valhalla sellers were holding back in the hope of higher prices.
+
+[P7] A large Midgard wholesaler said it had enough rice for several weeks but was buying forward to avoid a gap later in the winter.
+
+[P8] The central bank's comments were its first public remarks on the rice shock since the ban was announced.
+
+[P9] Retailers said the price of the cheapest rice grades had risen fastest, because those grades depend most on Vanir supply.
+
+[P10] Valhalla's trade ministry repeated that it had no plan to restrict exports, but warned that its surplus was limited.
+
+[P11] The first extra cargoes are expected to reach Midgard Harbour next month, two months after the ban began.
+
+[P12] The first Valhalla cargoes are expected to arrive next month.

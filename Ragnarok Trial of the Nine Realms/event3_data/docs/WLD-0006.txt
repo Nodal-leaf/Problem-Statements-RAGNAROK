@@ -1,0 +1,19 @@
+DOC_ID: WLD-0006
+EVENT_ID: NONE
+TITLE: Film festival lineup announced
+SOURCE_NAME: Raven Wire
+SOURCE_TYPE: news
+RELIABILITY: 2
+PUB_DATE: 2025-08-29
+PUB_TIME: 14:50
+COUNTRY: Ymir
+SECTOR: general
+LANGUAGE: en
+---
+Film festival lineup announced
+
+[P1] The programme for this year's Ymir film festival has been announced, with forty features and a similar number of short films. Screenings will take place in three cinemas and an outdoor venue beside the river.
+
+[P2] The opening night will show a documentary about a family-run bakery, followed by a discussion with the director. A retrospective strand will feature restored films from the region's early cinema.
+
+[P3] Tickets become available next week, with discounted passes for students and pensioners. Organisers said several screenings are likely to fill quickly, and a small number of tickets will be held back for each show. The outdoor venue will open an hour before each screening, weather permitting.

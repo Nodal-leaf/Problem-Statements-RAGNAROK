@@ -1,0 +1,41 @@
+DOC_ID: VAN-0014
+EVENT_ID: E3
+TITLE: Rice ban: open-market routes lose about three quarters of Vanir volume
+SOURCE_NAME: Tide Research
+SOURCE_TYPE: analyst_note
+RELIABILITY: 3
+PUB_DATE: 2027-01-10
+PUB_TIME: 08:15
+COUNTRY: Tolan
+SECTOR: Rice
+LANGUAGE: en
+---
+Rice ban: open-market routes lose about three quarters of Vanir volume
+
+[P1] We estimate that the three open-market Vanir rice routes lost about three quarters of their volume in January.
+
+[P2] Our route estimates for the January to March window are a value fall of about 77 percent to Tolan, 72 percent to Midgard and 68 percent to Asgard.
+
+[P3] The government-to-government route to Utgard is barely affected, with a value fall of about 10 percent.
+
+[P4] Valhalla's extra exports give Tolan a gain of about 39 percent and Midgard about 36 percent, on small bases.
+
+[P5] Fertiliser from Orvan to Valhalla is a secondary gain of about 21 percent; the Vanir fertiliser route is unchanged.
+
+[P6] The estimate assumes that the ban stays in force for the whole quarter and that the exemptions are applied as published.
+
+[P7] We use the prior-year months as the no-crisis baseline, adjusted for the normal seasonal pattern.
+
+[P8] The open-market routes are weighted by their base values when we show a single country figure.
+
+[P9] The main uncertainty is the share of premium rice in each route, which the customs data do not report separately.
+
+[P10] If premium rice is a larger share than we assume, the volume fall would be smaller and the price effect would be larger.
+
+[P11] We treat the government route as mostly exempt, with a small uncovered share that is affected by the ban.
+
+[P12] Our fertiliser estimate is a secondary effect and is much smaller than the rice trade.
+
+[P13] We will update the table when the first-quarter trade notes are published.
+
+[P14] These are forecasts, not reported figures. We would revise them when the first-quarter trade notes are published.

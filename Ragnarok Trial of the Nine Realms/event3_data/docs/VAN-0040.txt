@@ -1,0 +1,41 @@
+DOC_ID: VAN-0040
+EVENT_ID: E3
+TITLE: Why rice trade depends on a few exporters
+SOURCE_NAME: Midgard Times
+SOURCE_TYPE: explainer
+RELIABILITY: 2
+PUB_DATE: 2026-11-20
+PUB_TIME: 10:00
+COUNTRY: Midgard
+SECTOR: Rice
+LANGUAGE: en
+---
+Why rice trade depends on a few exporters
+
+[P1] Rice is a staple food in most Runemark countries, but only a few countries grow more than they eat.
+
+[P2] Vanir is the largest exporter, and Valhalla is the second. Both sell to importers that cannot grow enough rice at home.
+
+[P3] Tolan is an island and imports most of its rice. Midgard is a large importer, and Asgard is a trade hub that re-exports part of what it buys.
+
+[P4] The southern sea path carries rice and fertiliser between the exporting and importing countries. It is an open-sea route and does not rely on a narrow passage.
+
+[P5] Most rice is traded as ordinary white rice. Premium aromatic rice is a smaller, separate market with its own buyers and prices.
+
+[P6] Some buyers hold long-term government-to-government contracts. These contracts fix a volume and a price for a season, so they are less exposed to spot-market changes.
+
+[P7] Fertiliser is linked to rice because farmers buy it before planting. A country that plants more rice needs more fertiliser, often from Orvan.
+
+[P8] A poor harvest in one large exporter can therefore move prices across the region, even when other exporters have rice to sell.
+
+[P9] A single exporter can dominate a market when its crop is large and its transport costs are low.
+
+[P10] Importers that rely on one supplier are more exposed to a poor harvest or a policy change than importers with several sources.
+
+[P11] Long-term contracts reduce that exposure, but they also fix a price and a volume that may not match the market later.
+
+[P12] Premium rice is less affected by a ban on ordinary white rice, because it is sold to a different group of buyers.
+
+[P13] Fertiliser is an input that farmers buy before planting, so a change in rice area can move fertiliser trade with a delay.
+
+[P14] The market watches stocks, contracts and the weather, because a small change in supply can have a large effect on price.
