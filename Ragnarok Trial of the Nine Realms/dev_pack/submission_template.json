@@ -1,0 +1,280 @@
+{
+  "team_id": "YOUR_TEAM_NAME",
+  "case_file": {
+    "case_id": "CASE-001",
+    "question": "As of 25 April 2027, how exposed are Tolan and Midgard to Vanir's rice export ban? Give a low and high range for rice imports.",
+    "as_of_date": "2027-04-25",
+    "event_verified": true,
+    "verification_notes": "Heimdall verification summary: confirm whether the disruption is real or a retracted decoy.",
+    "retrieved_doc_ids": [
+      "DOC_ID_1",
+      "DOC_ID_2"
+    ]
+  },
+  "trial_runs": [
+    {
+      "run_number": 1,
+      "round_1_claims": {
+        "thor_high_case": [
+          {
+            "claim_id": "THOR-R1-01",
+            "country": "Tolan",
+            "sector": "Rice",
+            "estimate_pct": 0.0,
+            "evidence_doc_id": "DOC_ID",
+            "argument": "Thor's initial high exposure argument."
+          },
+          {
+            "claim_id": "THOR-R1-02",
+            "country": "Midgard",
+            "sector": "Rice",
+            "estimate_pct": 0.0,
+            "evidence_doc_id": "DOC_ID",
+            "argument": "Thor's initial high exposure argument."
+          }
+        ],
+        "loki_limited_case": [
+          {
+            "claim_id": "LOKI-R1-01",
+            "country": "Tolan",
+            "sector": "Rice",
+            "estimate_pct": 0.0,
+            "evidence_doc_id": "DOC_ID",
+            "argument": "Loki's initial limited exposure argument."
+          },
+          {
+            "claim_id": "LOKI-R1-02",
+            "country": "Midgard",
+            "sector": "Rice",
+            "estimate_pct": 0.0,
+            "evidence_doc_id": "DOC_ID",
+            "argument": "Loki's initial limited exposure argument."
+          }
+        ]
+      },
+      "round_2_cross_examination": {
+        "thor_attacks": [
+          {
+            "target_claim_id": "LOKI-R1-01",
+            "attack_argument": "Thor's challenge against Loki's claim.",
+            "counter_evidence_doc_id": "DOC_ID"
+          }
+        ],
+        "loki_attacks": [
+          {
+            "target_claim_id": "THOR-R1-01",
+            "attack_argument": "Loki's challenge against Thor's claim.",
+            "counter_evidence_doc_id": "DOC_ID"
+          }
+        ],
+        "defences": [
+          {
+            "defending_agent": "Loki",
+            "claim_id": "LOKI-R1-01",
+            "action": "concede",
+            "explanation": "Agent concedes claim in light of counter-evidence."
+          },
+          {
+            "defending_agent": "Thor",
+            "claim_id": "THOR-R1-01",
+            "action": "defend_with_new_evidence",
+            "new_evidence_doc_id": "DOC_ID",
+            "explanation": "Agent defends claim with new supporting evidence."
+          }
+        ]
+      },
+      "odin_rulings": {
+        "claim_rulings": [
+          {
+            "claim_id": "THOR-R1-01",
+            "nature": "sourced_fact",
+            "classification": "Established",
+            "ruling_notes": "Odin's ruling and justification."
+          },
+          {
+            "claim_id": "LOKI-R1-01",
+            "nature": "inference",
+            "classification": "Conceded",
+            "ruling_notes": "Odin's ruling and justification."
+          }
+        ],
+        "sufficiency_check": {
+          "is_sufficient": false,
+          "feedback_or_decision": "Odin's instructions identifying missing evidence to be retrieved in Run 2."
+        }
+      }
+    },
+    {
+      "run_number": 2,
+      "round_1_claims": {
+        "thor_high_case": [
+          {
+            "claim_id": "THOR-R2-01",
+            "country": "Tolan",
+            "sector": "Rice",
+            "estimate_pct": 0.0,
+            "evidence_doc_id": "DOC_ID",
+            "argument": "Thor's refined high exposure argument with new evidence."
+          },
+          {
+            "claim_id": "THOR-R2-02",
+            "country": "Midgard",
+            "sector": "Rice",
+            "estimate_pct": 0.0,
+            "evidence_doc_id": "DOC_ID",
+            "argument": "Thor's refined high exposure argument with new evidence."
+          }
+        ],
+        "loki_limited_case": [
+          {
+            "claim_id": "LOKI-R2-01",
+            "country": "Tolan",
+            "sector": "Rice",
+            "estimate_pct": 0.0,
+            "evidence_doc_id": "DOC_ID",
+            "argument": "Loki's refined limited exposure argument with new evidence."
+          },
+          {
+            "claim_id": "LOKI-R2-02",
+            "country": "Midgard",
+            "sector": "Rice",
+            "estimate_pct": 0.0,
+            "evidence_doc_id": "DOC_ID",
+            "argument": "Loki's refined limited exposure argument with new evidence."
+          }
+        ]
+      },
+      "round_2_cross_examination": {
+        "thor_attacks": [
+          {
+            "target_claim_id": "LOKI-R2-01",
+            "attack_argument": "Thor's second-round challenge.",
+            "counter_evidence_doc_id": "DOC_ID"
+          }
+        ],
+        "loki_attacks": [
+          {
+            "target_claim_id": "THOR-R2-02",
+            "attack_argument": "Loki's second-round challenge.",
+            "counter_evidence_doc_id": "DOC_ID"
+          }
+        ],
+        "defences": [
+          {
+            "defending_agent": "Thor",
+            "claim_id": "THOR-R2-02",
+            "action": "defend_with_new_evidence",
+            "new_evidence_doc_id": "DOC_ID",
+            "explanation": "Defense argument."
+          },
+          {
+            "defending_agent": "Loki",
+            "claim_id": "LOKI-R2-01",
+            "action": "concede",
+            "explanation": "Concession explanation."
+          }
+        ]
+      },
+      "odin_rulings": {
+        "claim_rulings": [
+          {
+            "claim_id": "THOR-R2-01",
+            "nature": "inference",
+            "classification": "Established",
+            "ruling_notes": "Odin's ruling."
+          },
+          {
+            "claim_id": "THOR-R2-02",
+            "nature": "inference",
+            "classification": "Established",
+            "ruling_notes": "Odin's ruling."
+          }
+        ],
+        "sufficiency_check": {
+          "is_sufficient": true,
+          "feedback_or_decision": "Evidence is sufficient; Odin approves final briefing."
+        }
+      }
+    }
+  ],
+  "final_briefing": {
+    "executive_summary": "Executive summary synthesizing the court's overall findings.",
+    "findings": {
+      "established": [
+        {
+          "finding": "Established finding backed by Tier 1/2 evidence.",
+          "citations": [
+            "DOC_ID#P1"
+          ]
+        }
+      ],
+      "contested": [
+        {
+          "finding": "Contested or conflicting claim identified during the trial.",
+          "citations": [
+            "DOC_ID#P1"
+          ]
+        }
+      ],
+      "conceded": [
+        {
+          "finding": "Point conceded by Thor or Loki under cross-examination.",
+          "citations": [
+            "DOC_ID#P1"
+          ]
+        }
+      ]
+    },
+    "exposure_table": [
+      {
+        "country": "Tolan",
+        "sector": "Rice",
+        "thor_range": {
+          "low_pct": 0.0,
+          "high_pct": 0.0
+        },
+        "loki_range": {
+          "low_pct": 0.0,
+          "high_pct": 0.0
+        },
+        "odin_final_range": {
+          "low_pct": 0.0,
+          "high_pct": 0.0,
+          "central_estimate_pct": 0.0
+        }
+      },
+      {
+        "country": "Midgard",
+        "sector": "Rice",
+        "thor_range": {
+          "low_pct": 0.0,
+          "high_pct": 0.0
+        },
+        "loki_range": {
+          "low_pct": 0.0,
+          "high_pct": 0.0
+        },
+        "odin_final_range": {
+          "low_pct": 0.0,
+          "high_pct": 0.0,
+          "central_estimate_pct": 0.0
+        }
+      }
+    ],
+    "next_quarter_outlook": {
+      "projection": "Forward-looking projection for the coming quarters.",
+      "assumptions_stated": [
+        "Explicit assumption 1.",
+        "Explicit assumption 2."
+      ]
+    },
+    "citations_source_list": [
+      {
+        "doc_id": "DOC_ID",
+        "paragraph": "P1",
+        "source_name": "Source Name",
+        "timestamp": "YYYY-MM-DD HH:MM"
+      }
+    ]
+  }
+}

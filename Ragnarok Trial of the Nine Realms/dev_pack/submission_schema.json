@@ -1,0 +1,286 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TrialOfTheNineRealmsSubmission",
+  "description": "Output schema for the 4-agent adversarial courtroom system (Heimdall, Thor, Loki, Odin) per Problem Statement.",
+  "type": "object",
+  "required": [
+    "team_id",
+    "case_file",
+    "trial_runs",
+    "final_briefing"
+  ],
+  "properties": {
+    "team_id": {
+      "type": "string",
+      "description": "Unique team or model identifier"
+    },
+    "case_file": {
+      "type": "object",
+      "description": "FR1: Case File built by Heimdall",
+      "required": [
+        "case_id",
+        "question",
+        "as_of_date",
+        "event_verified",
+        "verification_notes",
+        "retrieved_doc_ids"
+      ],
+      "properties": {
+        "case_id": { "type": "string" },
+        "question": { "type": "string" },
+        "as_of_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "event_verified": { "type": "boolean", "description": "True if event is real; False if fake/unverified decoy" },
+        "verification_notes": { "type": "string" },
+        "retrieved_doc_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "trial_runs": {
+      "type": "array",
+      "description": "FR5: The Trial Loop runs (minimum 2 runs required by FR5.4)",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "run_number",
+          "round_1_claims",
+          "round_2_cross_examination",
+          "odin_rulings"
+        ],
+        "properties": {
+          "run_number": { "type": "integer", "minimum": 1 },
+          "round_1_claims": {
+            "type": "object",
+            "required": ["thor_high_case", "loki_limited_case"],
+            "properties": {
+              "thor_high_case": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["claim_id", "country", "sector", "estimate_pct", "evidence_doc_id", "argument"],
+                  "properties": {
+                    "claim_id": { "type": "string" },
+                    "country": { "type": "string" },
+                    "sector": { "type": "string" },
+                    "estimate_pct": { "type": "number" },
+                    "evidence_doc_id": { "type": "string" },
+                    "argument": { "type": "string" }
+                  }
+                }
+              },
+              "loki_limited_case": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["claim_id", "country", "sector", "estimate_pct", "evidence_doc_id", "argument"],
+                  "properties": {
+                    "claim_id": { "type": "string" },
+                    "country": { "type": "string" },
+                    "sector": { "type": "string" },
+                    "estimate_pct": { "type": "number" },
+                    "evidence_doc_id": { "type": "string" },
+                    "argument": { "type": "string" }
+                  }
+                }
+              }
+            }
+          },
+          "round_2_cross_examination": {
+            "type": "object",
+            "required": ["thor_attacks", "loki_attacks", "defences"],
+            "properties": {
+              "thor_attacks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["target_claim_id", "attack_argument", "counter_evidence_doc_id"],
+                  "properties": {
+                    "target_claim_id": { "type": "string" },
+                    "attack_argument": { "type": "string" },
+                    "counter_evidence_doc_id": { "type": "string" }
+                  }
+                }
+              },
+              "loki_attacks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["target_claim_id", "attack_argument", "counter_evidence_doc_id"],
+                  "properties": {
+                    "target_claim_id": { "type": "string" },
+                    "attack_argument": { "type": "string" },
+                    "counter_evidence_doc_id": { "type": "string" }
+                  }
+                }
+              },
+              "defences": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["defending_agent", "claim_id", "action", "explanation"],
+                  "properties": {
+                    "defending_agent": { "type": "string", "enum": ["Thor", "Loki"] },
+                    "claim_id": { "type": "string" },
+                    "action": { "type": "string", "enum": ["defend_with_new_evidence", "concede"] },
+                    "new_evidence_doc_id": { "type": "string" },
+                    "explanation": { "type": "string" }
+                  }
+                }
+              }
+            }
+          },
+          "odin_rulings": {
+            "type": "object",
+            "required": ["claim_rulings", "sufficiency_check"],
+            "properties": {
+              "claim_rulings": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["claim_id", "nature", "classification", "ruling_notes"],
+                  "properties": {
+                    "claim_id": { "type": "string" },
+                    "nature": { "type": "string", "enum": ["sourced_fact", "inference"] },
+                    "classification": { "type": "string", "enum": ["Established", "Contested", "Conceded", "Rejected"] },
+                    "ruling_notes": { "type": "string" }
+                  }
+                }
+              },
+              "sufficiency_check": {
+                "type": "object",
+                "required": ["is_sufficient", "feedback_or_decision"],
+                "properties": {
+                  "is_sufficient": { "type": "boolean" },
+                  "feedback_or_decision": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "final_briefing": {
+      "type": "object",
+      "description": "FR4.4 & FR8: Final briefing drafted by Odin from rulings only",
+      "required": [
+        "executive_summary",
+        "findings",
+        "exposure_table",
+        "next_quarter_outlook",
+        "citations_source_list"
+      ],
+      "properties": {
+        "executive_summary": { "type": "string" },
+        "findings": {
+          "type": "object",
+          "required": ["established", "contested", "conceded"],
+          "properties": {
+            "established": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["finding", "citations"],
+                "properties": {
+                  "finding": { "type": "string" },
+                  "citations": { "type": "array", "items": { "type": "string", "pattern": "^[A-Z]{3}-\\d{4}#P\\d+$" } }
+                }
+              }
+            },
+            "contested": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["finding", "citations"],
+                "properties": {
+                  "finding": { "type": "string" },
+                  "citations": { "type": "array", "items": { "type": "string", "pattern": "^[A-Z]{3}-\\d{4}#P\\d+$" } }
+                }
+              }
+            },
+            "conceded": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["finding", "citations"],
+                "properties": {
+                  "finding": { "type": "string" },
+                  "citations": { "type": "array", "items": { "type": "string", "pattern": "^[A-Z]{3}-\\d{4}#P\\d+$" } }
+                }
+              }
+            }
+          }
+        },
+        "exposure_table": {
+          "type": "array",
+          "description": "FR7.3 & Section 5: Exposure ranges for Thor, Loki, and Odin final range per country and sector",
+          "items": {
+            "type": "object",
+            "required": [
+              "country",
+              "sector",
+              "thor_range",
+              "loki_range",
+              "odin_final_range"
+            ],
+            "properties": {
+              "country": { "type": "string", "enum": ["Tolan", "Midgard"] },
+              "sector": { "type": "string", "enum": ["Rice"] },
+              "thor_range": {
+                "type": "object",
+                "required": ["low_pct", "high_pct"],
+                "properties": {
+                  "low_pct": { "type": "number" },
+                  "high_pct": { "type": "number" }
+                }
+              },
+              "loki_range": {
+                "type": "object",
+                "required": ["low_pct", "high_pct"],
+                "properties": {
+                  "low_pct": { "type": "number" },
+                  "high_pct": { "type": "number" }
+                }
+              },
+              "odin_final_range": {
+                "type": "object",
+                "required": ["low_pct", "high_pct", "central_estimate_pct"],
+                "properties": {
+                  "low_pct": { "type": "number" },
+                  "high_pct": { "type": "number" },
+                  "central_estimate_pct": { "type": "number" }
+                }
+              }
+            }
+          }
+        },
+        "next_quarter_outlook": {
+          "type": "object",
+          "required": ["projection", "assumptions_stated"],
+          "properties": {
+            "projection": { "type": "string" },
+            "assumptions_stated": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        },
+        "citations_source_list": {
+          "type": "array",
+          "description": "FR8.3: Full bibliography of cited documents with timestamps",
+          "items": {
+            "type": "object",
+            "required": ["doc_id", "paragraph", "source_name", "timestamp"],
+            "properties": {
+              "doc_id": { "type": "string" },
+              "paragraph": { "type": "string" },
+              "source_name": { "type": "string" },
+              "timestamp": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
