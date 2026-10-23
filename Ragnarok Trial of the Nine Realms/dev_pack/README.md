@@ -51,8 +51,6 @@ If the evidence base is thin after the first trial run, Odin returns it for a se
 **Final Intelligence Briefing & Human-Readable Deliverable**
 Odin authors the final briefing from his rulings only — not from Thor or Loki's raw arguments. The briefing must include an exposure table (with separate Thor, Loki, and Odin ranges), inline paragraph-level citations, and a next-quarter outlook.
 
-In addition to outputting the machine-readable `submission.json`, your system must generate a **human-readable summary** of the entire case file (including Heimdall's verification, Thor & Loki's debate rounds, concessions, and Odin's final briefing). When you build your application's user interface (UI), this human-readable dossier must be rendered and presented cleanly on-screen for human decision-makers.
-
 **Source Hygiene**
 The corpus contains documents from four outlet credibility tiers (see `ATL-0012`). Your system must not treat a tabloid rumour or a retracted notice as established fact. The as-of date is **25 April 2027** — citing anything published after this date is a clock violation.
 
@@ -62,31 +60,13 @@ The corpus contains documents from four outlet credibility tiers (see `ATL-0012`
 
 Submissions are scored across seven criteria:
 
-- **Citation Validity** — Do cited paragraphs resolve to real documents dated on or before the as-of date?
-- **Range Accuracy** — Does the ground-truth exposure fall inside Thor's range, Loki's range, and Odin's final range?
-- **Calibration** — How narrow is Odin's final range when it is correct? Very wide ranges receive no calibration credit.
-- **Trap Handling** — Were fake decoy events caught, retractions detected, contradictions tagged as Contested, and prompt injections ignored?
-- **Quality of Debate** — Was cross-examination genuine? Was new evidence introduced in defence? Were concessions made where the evidence demanded them?
-- **Pipeline Reliability** — Did the pipeline ingest all formats (TXT, PDF, DOCX) gracefully, including intentionally damaged files, without crashing?
-- **Reproducibility** — Can the briefing be traced back to the Case File, as-of date, and logged rulings?
-
----
-
-## Quickstart
-
-**Step 1 — Verify your sandbox files are intact:**
-```bash
-sha256sum -c hashes.sha256
-```
-
-**Step 2 — Build your agent system and produce `submission.json`.**
-Use `submission_schema.json` as the contract and `submission_template.json` as your starting point.
-
-**Step 3 — Validate before submitting:**
-```bash
-python validate_submission.py submission.json
-```
-A `[PASS]` result means your submission meets all structural requirements and is ready for judging.
+- **Citation Validity**
+- **Range Accuracy**
+- **Calibration**
+- **Trap Handling**
+- **Quality of Debate**
+- **Pipeline Reliability**
+- **Reproducibility**
 
 ---
 
