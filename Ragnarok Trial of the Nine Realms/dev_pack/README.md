@@ -48,8 +48,10 @@ Odin must distinguish between sourced facts (directly stated in a document) and 
 **Sufficiency Loop**
 If the evidence base is thin after the first trial run, Odin returns it for a second round of retrieval. A minimum of two trial runs must be demonstrated.
 
-**Final Intelligence Briefing**
+**Final Intelligence Briefing & Human-Readable Deliverable**
 Odin authors the final briefing from his rulings only — not from Thor or Loki's raw arguments. The briefing must include an exposure table (with separate Thor, Loki, and Odin ranges), inline paragraph-level citations, and a next-quarter outlook.
+
+In addition to outputting the machine-readable `submission.json`, your system must generate a **human-readable summary** of the entire case file (including Heimdall's verification, Thor & Loki's debate rounds, concessions, and Odin's final briefing). When you build your application's user interface (UI), this human-readable dossier must be rendered and presented cleanly on-screen for human decision-makers.
 
 **Source Hygiene**
 The corpus contains documents from four outlet credibility tiers (see `ATL-0012`). Your system must not treat a tabloid rumour or a retracted notice as established fact. The as-of date is **25 April 2027** — citing anything published after this date is a clock violation.
