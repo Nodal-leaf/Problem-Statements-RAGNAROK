@@ -18,7 +18,6 @@ Your system must ingest this repository, analyze the portfolio holistically, mon
 odin_dev_pack/
 ├── README.md                          ← You are here
 ├── clock.json                         ← Simulated time clock with 3 checkpoint dates
-├── generate_pdfs.py                   ← Utility to generate matching PDF twins
 ├── docs/
 │   └── format_spec.md                 ← Input specifications, drop model, and citation rules
 └── bundle/
